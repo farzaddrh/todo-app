@@ -1,6 +1,6 @@
 //primaty
 $BrightBlue: hsl(220, 98%, 61%);
-//CheckBackground: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+
 //light theme
 $VeryLightGray: hsl(0, 0%, 98%);
 $VeryLightGrayishBlue: hsl(236, 33%, 92%);
@@ -91,8 +91,6 @@ body {
                 padding-block: 2rem;
                 border: 1px solid transparent;
                 font-family: "Josefin Sans";
-
-
             }
 
             #todo::-webkit-input-placeholder {
@@ -279,23 +277,14 @@ body {
             visibility: hidden;
         }
 
-        ;
     }
 
-    ;
-
-    ;
 }
-
-;
-
-
 
 .hidden {
     display: none !important;
 }
 
-;
 
 .btn {
     border: none;
@@ -311,18 +300,13 @@ body {
         color: hsl(235, 19%, 35%);
     }
 
-    ;
+
 }
-
-;
-
 
 .btn.active {
     color: hsl(220, 98%, 61%);
     font-weight: 700;
 }
-
-;
 
 
 
@@ -333,7 +317,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
-
 
     .cart-container {
         .title-container {
@@ -451,25 +434,15 @@ body {
                     color: $BrightBlue
                 }
 
-                ;
-            }
 
-            ;
+            }
         }
 
-        ;
-
-        ;
 
     }
 
-    ;
-
 
 }
-
-;
-
 
 /////////////////////responsive////////////////////
 @media (max-width: 768px) {
@@ -508,8 +481,6 @@ body {
                     }
                 }
 
-                ;
-
                 .filter-todos {
 
                     .filter {
@@ -540,17 +511,11 @@ body {
                 color: $BrightBlue;
             }
 
-            ;
         }
 
-        ;
     }
 
-    ;
 }
-
-
-
 
 
 @media (max-width: 450px) {
@@ -566,5 +531,3 @@ body {
         }
     }
 }
-
-;
