@@ -81,8 +81,9 @@ listEl.addEventListener("click", function (e) {
         let todos = getLocalStorage();
         const id = e.target.closest(".todo-item").dataset.id;
         const clickedItem = todos.find((tdo) => tdo.id === id);
-        clickedItem.done = true;
+        clickedItem.done = !clickedItem.done;
         setLocalStorage(todos);
+        console.log(todos);
     }
 });
 const showAll = function () {
@@ -134,4 +135,3 @@ getLocalStorage() ? getLocalStorage() : setLocalStorage(todos);
 function getLocalStorage() {
     return JSON.parse(sessionStorage.getItem("todos"));
 }
-
