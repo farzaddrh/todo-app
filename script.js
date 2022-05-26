@@ -83,7 +83,7 @@ listEl.addEventListener("click", function (e) {
         const clickedItem = todos.find((tdo) => tdo.id === id);
         clickedItem.done = !clickedItem.done;
         setLocalStorage(todos);
-        console.log(todos);
+      
     }
 });
 const showAll = function () {
