@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Overpass:wght@400;700&family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.scss">
+    <script type="module" src="script.js"></script>
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <div class="container ">
+
+        <div class="cart-container">
+
+            <div class="title-container">
+                <p class="title">todo</p>
+                <div class="moon">
+                    <img src="images/icon-moon.svg" alt="moon">
+                </div>
+                <div class="sun">
+                    <img src="images/icon-sun.svg" alt="sun">
+                </div>
+            </div>
+
+            <div class="todo-container">
+                <div class="icon-input"></div>
+                <input type="text" name="todo" id="todo" placeholder="Create a new to do...">
+
+            </div>
+
+            <div class="cart">
+                <ul class="todo-list">
+                    <!-- <li class="todo-item"><input type="checkbox" name="check1" class="check-item" id="check1"><label
+                            for="check1">Complete
+                            online JavaScript course</label></li> -->
+                </ul>
+
+                <div class="filter-todos">
+                    <p class="left-items"></p>
+                    <div class="filter">
+                        <button class="btn btn-all active">All</button>
+                        <button class="btn btn-active">Active</button>
+                        <button class="btn btn-completed">Completed</button>
+                    </div>
+                    <div class="clear">
+                        <button class="btn btn-clear"> Clear Completed</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter mobile-fliter ">
+                <button class="btn btn-all active ">All</button>
+                <button class="btn btn-active">Active</button>
+                <button class="btn btn-completed">Completed</button>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
